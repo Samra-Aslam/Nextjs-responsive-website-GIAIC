@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* hrader styling here */
+
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+
+}.logo{
+    font-size:80%;
+    color: orange;
+    text-shadow: 0px 0px 1px rgb(48, 47, 47);
+}
+.header nav{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    font-size: 80%;
+}
+.header nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 10px;
+}.header nav a:hover{
+    color: orange;
+}
+
+/* footer section styling here */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60.5%;
+    background-color: black;
+    color:aliceblue;
+    padding: 2px;
+}
+
+/* Home page styling here */
+.Content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../app/images/food\ banner1.jpg);
+}.Manubtn{
+    padding: 8px;
+    width: 20%;
+    height: auto;
+    font-weight:500;
+    background-color: orangered;
+    border: 2px solid orangered;
+    box-shadow:0px 0px 1px black ,1px 1px 10px orange;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: all 1s linear;
+}
+.Manubtn:hover{
+    width: 16%;
+    background-color: orange;
+    border: 2px solid orange;
+    box-shadow:1px 1px 24px black;
+}
+
+/* about page styling here */
+.About{
+    margin-top: 10px;
+    background-image: linear-gradient(90deg, rgba(190,106,27,0.9) 0%, rgba(217, 225, 61, 0.9) 39%, rgba(135, 110, 18, 0.9) 100%),url(../app/images/food\ banner1.jpg);
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 15px;
+}.text{
+    width:95%;
+    height:auto;
+    border: 2px solid linear-gradient(90deg, rgba(190,106,27,1) 0%, rgba(9,113,121,1) 39%, rgba(255,200,0,1) 100%);
+    padding: 40px 10px;
+    box-shadow: 2px 2px 20px rgb(61, 60, 60);
+    font-size:90%;
+    line-height: 1.5em;
+    white-space: 1.5em;
+    overflow:auto;
+}a{
+    color:black;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+
+
+/* contact page styling here */
+
+.Contact{
+    height:90vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-image: linear-gradient(90deg, rgba(190,106,27,0.9) 0%, rgba(217, 225, 61, 0.9) 39%, rgba(135, 110, 18, 0.9) 100%),url(../app/images/food\ banner1.jpg);
+}.main{
+    height:auto;
+    width: 50%;
+    box-shadow : 2px 2px 30px rgb(56, 56, 56);
+    border: 1px dolid gray;
+    padding: 8px;
+    border: 2px solid linear-gradient(90deg, rgb(27, 190, 49) 0%, rgba(9,113,121,1) 39%, rgb(60, 0, 255) 100%) ;
+}input {
+    width: 100%;
+    margin-top: 5px;
+    line-height: 1.5em;
+    background-color: black;
+    height: 40px;
+    color: aliceblue;
+
+}form{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}textarea{
+    width: 100%;
+    margin-top: 10px;
+    line-height: 1.5em;
+    background-color: black;
+    color: aliceblue;
+
+}.main h3{
+    font-weight: bold;
+    font-size: 1.7em;
+    color: aliceblue;
+    padding-bottom: 3px;
+}.btnsend{
+    width: 100%;
+    height: auto;
+    color: aliceblue;
+    background-color: orange;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid orange;
+}fieldset{
+    text-align: left;
+    font-weight: 600;
+    color: aliceblue;
+}.main p{
+    font-size: 90%;
+    padding-top: 4px;
+}::placeholder{
+    color: rgb(188, 37, 37);
+    font-size: 80%;
+}.btnsend:hover{
+    background-color: orangered;
+    border:  2px solid orangered;
+}
+
+
+
+
+/* manu page styling here */
+
+.Manu{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+    background-image: linear-gradient(90deg, rgba(190,106,27,0.9) 0%, rgba(217, 225, 61, 0.9) 39%, rgba(135, 110, 18, 0.9) 100%),url(../app/images/food\ banner1.jpg);
+}
+.h3{
+    color:orange;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.img1{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-image:url(../app/images/chees\ pizza.jpg);
+      
+}.Container1{
+    width: 98%;
+    height:auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3 ,minmax(250px, 1fr));
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    row-gap: 20px;
+    column-gap: 8px;
+}.item{
+    height:320px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    background-color: black;
+    
+    box-sizing: border-box;
+}.item h3{
+    margin-bottom: 5px;
+    color: aliceblue;
+}.cartbtn{
+    width: 95%;
+    border-radius: 12px;
+    background-color: orange;
+    border: 2px solid orange;
+    padding: 7px;
+    margin-top: 5px;
+
+
+}.name{
+    text-align: center;
+}.cart{
+    text-align: center;
+}
+.img2{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../app/images/chicken\ seekh\ kababb.jpg);
+      
+}.img3{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../app/images/fish\ biryanii.jpg);
+      
+}.img4{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../app/images/french\ pastriess.jpg);
+      
+}.img5{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../app/images/fries\ and\ burger.jpg);
+      
+}
+.img6{
+    height:200px;
+    width:  300px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-image:url(../app/images/vanila\ chocolet\ milkshake.jfif);
+      
+}
+
+/* media querry here */
+  /* manu page */
+@media(max-width:1000px){
+    .Container1{
+        grid-template-columns: repeat(2,minmax(250px, 1fr));
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media(max-width:720px){
+    /* about page */
+    .About{
+        margin-top: 8px;
+        padding: 6px;
+    }.text{
+        
+        font-size:62.5%;
+        width: 98%;
+        padding: 10px 3px;
+    }.main h3{
+        /* contact page */
+        font-size: 1.4em;
+    }
+}
+
+@media(max-width:650px){
+    /* manu page  */
+    .Container1{
+        grid-template-columns: repeat(1,minmax(250px, 1fr));
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media(max-width:600px){
+
+    /* Home manu btn section */
+    .Manubtn{
+        width: 40%;
+    }
+    .Manubtn:hover{
+        width: 30%;
+       
+    }
+}
+
+@media(max-width:300px){
+    /* header section */
+    .header nav{
+        gap: 5px;
+        font-size: 70%;
+        
+    }
+}
